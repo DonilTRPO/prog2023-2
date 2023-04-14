@@ -17,7 +17,6 @@ int main()
         int_vector_push_back(array,i);
         printf("%d\n",array -> data[i]);
     }
-    print_vector(array);
     IntVector *a = int_vector_copy(array);
     print_vector(array);
     printf("vector a\n");
