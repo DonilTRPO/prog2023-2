@@ -11,7 +11,6 @@ int main()
 		printf("Error");
 	}
     IntVector *array = int_vector_new(x);
-    print_vector(array);
     for (int i = 0; i < array->capacity; i++)
     {
         int_vector_push_back(array,i);
